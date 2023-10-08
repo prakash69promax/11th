@@ -1,3 +1,4 @@
+# GP code
 a = float(input("Enter The first number :"))
 r = float(input("Enter The common ratio :"))
 n = float(input("Enter The nth term :"))
