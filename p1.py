@@ -29,6 +29,23 @@ elif x==3:
         print(su,'is the sum of infinte terms.')
 else:
     print('Error! please try from 1/2/3 only.')
+# AP 
+a = float(input("Enter The first number :"))
+d = float(input("Enter The common difference :"))
+n = float(input("Enter The nth term :"))
+print("Enter 1 for finding nth term.")
+print("Enter 2 for finding sum till nth term.")
+x = int(input("Enter from (1/2) : "))
+if x==1:
+    nterm= a+((n-1)*d)
+    print(nterm,'is the nth term.')
+elif x==2:
+    s = (n/2)*(2*a+((n-1)*d))
+    print(s,'is the sum of',n,'terms.')
+else:
+    print('Error! please try from 1/2 only.')
+
+
 
 
 
