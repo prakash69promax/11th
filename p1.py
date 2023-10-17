@@ -45,6 +45,17 @@ elif x==2:
 else:
     print('Error! please try from 1/2 only.')
 
+# code of distance formula
+import math as m
+x1 = float(input('Enter (x) coordinate of first point:'))
+y1 = float(input('Enter (y) coordinate of first point:'))
+x2= float(input('Enter (x) coordinate of second point:'))
+y2 = float(input('Enter (y) coordinate of second point:'))
+formula1 = ((x2-x1)**2)+((y2-y1)**2)
+finalfor= m.sqrt(formula1)
+print(finalfor)
+
+
 
 
 
